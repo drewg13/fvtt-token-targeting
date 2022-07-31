@@ -15,4 +15,4 @@ This module stores targeting data in Token Document flags so that, when you chan
 
 ## Demo
 
-![Untitled.mp4](Untitled.mp4)
+https://user-images.githubusercontent.com/1455026/182046857-c5dd67c0-22dc-41d2-ad5f-2d399b9ed67c.mp4
