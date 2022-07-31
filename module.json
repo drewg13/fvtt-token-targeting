@@ -9,7 +9,7 @@
   ],
   "version": "1.0.0",
   "url": "https://github.com/drewg13/fvtt-token-targeting",
-  "manifest": "https://raw.githubusercontent.com/drewg13/fvtt-token-targeting/main/module.json",
+  "manifest": "https://raw.githubusercontent.com/drewg13/fvtt-token-targeting/master/module.json",
   "download": "https://github.com/drewg13/fvtt-token-targeting/archive/v1.0.0.zip",
   "bugs": "https://github.com/drewg13/fvtt-token-targeting/issues",
   "minimumCoreVersion": "9.269",
