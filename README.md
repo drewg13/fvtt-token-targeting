@@ -1,4 +1,5 @@
 ![GitHub release (latest by date)](https://img.shields.io/github/downloads/drewg13/fvtt-token-targeting/latest/total)
+![GitHub all releases](https://img.shields.io/github/downloads/drewg13/fvtt-token-targeting/total)
 
 # Token Targeting
 
