@@ -1,5 +1,8 @@
 # Token Targeting
 
+## Known Issues
+Syncing between users seems to take a few cycles to work properly.  Deselecting and reselecting the Token seems to help.  Working on it.
+
 ## Usage
 To use, activate in the Manage Modules window.
 
