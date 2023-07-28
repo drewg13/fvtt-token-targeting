@@ -1,7 +1,9 @@
-![GitHub release (latest by date)](https://img.shields.io/github/downloads/drewg13/fvtt-token-targeting/latest/total)
-![GitHub all releases](https://img.shields.io/github/downloads/drewg13/fvtt-token-targeting/total)
-
 # Token Targeting
+<p>
+  <img alt="GitHub release (latest by date)" src="https://img.shields.io/github/v/release/drewg13/fvtt-token-targeting">
+  <img alt="GitHub downloads (latest)" src="https://img.shields.io/github/downloads/drewg13/fvtt-token-targeting/latest/system.zip">
+</p>
+
 
 ## Known Issues
 Syncing between users seems to take a few cycles to work properly.  Deselecting and reselecting the Token seems to help.  Working on it.
