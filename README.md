@@ -1,7 +1,7 @@
 # Token Targeting
 <p>
   <img alt="GitHub release (latest by date)" src="https://img.shields.io/github/v/release/drewg13/fvtt-token-targeting">
-  <img alt="GitHub downloads (latest)" src="https://img.shields.io/github/downloads/drewg13/fvtt-token-targeting/latest/system.zip">
+  <img alt="GitHub downloads (latest)" src="https://img.shields.io/github/downloads/drewg13/fvtt-token-targeting/latest/module.zip">
 </p>
 
 
