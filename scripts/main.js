@@ -40,11 +40,11 @@ Hooks.on( "controlToken", ( token, active ) => {
       if( targets !== culledTargets ){
         token.document.setFlag( moduleName, "targets", culledTargets );
       }
-      game.user.updateTokenTargets( culledTargets );
+      game.user._onUpdateTokenTargets( culledTargets );
       userToken = token;
     } else {
       deselectedToken = true;
-      game.user.updateTokenTargets([]);
+      game.user._onUpdateTokenTargets([]);
       userToken = {};
     }
   }
@@ -57,12 +57,8 @@ Hooks.on( "targetToken", async ( user, token, active ) => {
     let emptyUserToken;
     let currTargets = userToken?.document?.getFlag( moduleName, "targets" ) || [];
 
-    if( game.data.release.generation < 10 ) {
-      /* deprecated in V10 */
-      emptyUserToken = foundry.utils.isObjectEmpty( userToken );
-    } else {
-      emptyUserToken = foundry.utils.isEmpty( userToken );
-    }
+    emptyUserToken = foundry.utils.isEmpty( userToken );
+    
     if( activeModule && !emptyUserToken && activeUser ) {
       if( active ) {
         /* check if target already exists in array */
@@ -94,7 +90,7 @@ Hooks.on( "targetToken", async ( user, token, active ) => {
       if( user.id !== game.userId ) {
         const currTargetsMap = currTargets.map( t => canvas.tokens.get( t ).document.name );
         console.log( currTargetsMap );
-        game.user.updateTokenTargets( currTargets );
+        game.user._onUpdateTokenTargets( currTargets );
       }
     }
 });

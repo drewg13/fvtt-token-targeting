@@ -1,3 +1,5 @@
 /fvtt-token-targeting.lock
 /.gitignore
 /.idea/*
+/foundry
+/foundry-config.yaml

@@ -1,9 +1,7 @@
 {
-  "name": "fvtt-token-targeting",
   "id": "fvtt-token-targeting",
   "title": "Token Targeting",
   "description": "A module that saves targeting data on a per-token basis",
-  "author": "Andrew Garinger (agaringer#6498)",
   "authors": [
     {"name": "Andrew Garinger", "discord": "agaringer#6498"}
   ],
@@ -12,10 +10,9 @@
   "manifest": "#{MANIFEST}#",
   "download": "#{DOWNLOAD}#",
   "bugs": "https://github.com/drewg13/fvtt-token-targeting/issues",
-  "minimumCoreVersion": "9.269",
   "compatibility": {
-    "minimum": "9.269",
-    "verified": "11.315"
+    "minimum": "13",
+    "verified": "13.344"
   },
   "esmodules": [
     "scripts/main.js"
